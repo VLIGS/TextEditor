@@ -16,7 +16,11 @@ public class MyLinkedList<E> extends AbstractList<E> {
 
 	/** Create a new empty LinkedList */
 	public MyLinkedList() {
-		// TODO: Implement this method
+		size = 0;
+        head = new LLNode<E>(null);
+        tail = new LLNode<E>(null);
+        head.next = tail;
+        tail.prev = head;
 	}
 
 	/**
@@ -25,34 +29,58 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public boolean add(E element ) 
 	{
-		// TODO: Implement this method
-		return false;
+        LLNode<E> myNode = new LLNode<E>(element);
+        myNode.next = head.next;
+        myNode.prev = myNode.next.prev;
+        myNode.next.prev = myNode;
+        head.next = myNode;
+        size = size +1;
+		return true;
 	}
 
 	/** Get the element at position index 
 	 * @throws IndexOutOfBoundsException if the index is out of bounds. */
 	public E get(int index) 
 	{
-		// TODO: Implement this method.
-		return null;
+        LLNode<E> myReturnNode = head;
+        if(emptyList()){
+            throw new IndexOutOfBoundsException("Index exceeds size of the list");
+        }
+        else if ((index > size -1)^(index<0)) {
+            throw new IndexOutOfBoundsException("Index exceeds size of the list");
+        }
+        else {
+            for (int i = 0; i==index; i++){
+                myReturnNode = myReturnNode.next;
+            }
+        }
+		return myReturnNode.data;
 	}
-
+    private boolean emptyList()
+    {
+        if(size==0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 	/**
 	 * Add an element to the list at the specified index
-	 * @param The index where the element should be added
+	 * @param index where the element should be added
 	 * @param element The element to add
 	 */
 	public void add(int index, E element ) 
 	{
 		// TODO: Implement this method
+        //size = size +1;
 	}
 
 
 	/** Return the size of the list */
 	public int size() 
 	{
-		// TODO: Implement this method
-		return -1;
+		return size;
 	}
 
 	/** Remove a node at the specified index and return its data element.
