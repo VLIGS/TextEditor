@@ -4,8 +4,6 @@ import java.util.AbstractList;
 
 
 /** A class that implements a doubly linked list
- * 
- * @author UC San Diego Intermediate Programming MOOC team
  *
  * @param <E> The type of the elements stored in the list
  */
@@ -27,15 +25,26 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 * Appends an element to the end of the list
 	 * @param element The element to add
 	 */
-	public boolean add(E element ) 
-	{
-        LLNode<E> myNode = new LLNode<E>(element);
-        myNode.next = head.next;
-        myNode.prev = myNode.next.prev;
-        myNode.next.prev = myNode;
-        head.next = myNode;
-        size = size +1;
-		return true;
+	public boolean add(E element ) {
+        if(element==null){                  //can not add null element to list
+            return false;
+        }
+        else {
+            LLNode<E> myNode = new LLNode<E>(element);
+            if(emptyList()){                //if first element of the list
+                myNode.next = tail;
+                myNode.prev = head;
+                head.next = myNode;
+                tail.prev = myNode;
+            }
+            else{
+                myNode.next = tail;
+                myNode.prev = tail.prev;
+                tail.prev = myNode;
+            }
+            size++;
+            return true;
+        }
 	}
 
 	/** Get the element at position index 
@@ -50,7 +59,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
             throw new IndexOutOfBoundsException("Index exceeds size of the list");
         }
         else {
-            for (int i = 0; i==index; i++){
+            for (int i = 0; i<=index; i++){
                 myReturnNode = myReturnNode.next;
             }
         }
