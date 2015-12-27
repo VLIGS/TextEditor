@@ -18,6 +18,8 @@ public class MyLinkedListTester {
 	MyLinkedList<Integer> emptyList;
 	MyLinkedList<Integer> longerList;
 	MyLinkedList<Integer> list1;
+	MyLinkedList<Integer> list2;
+
 	
 	/**
 	 * @throws java.lang.Exception
@@ -38,6 +40,11 @@ public class MyLinkedListTester {
 		list1.add(65);
 		list1.add(21);
 		list1.add(42);
+
+		list2 = new MyLinkedList<Integer>();
+		list2.add(65);
+		list2.add(21);
+		list2.add(42);
 		
 	}
 
@@ -126,9 +133,11 @@ public class MyLinkedListTester {
 	@Test
 	public void testAddEnd()
 	{
+
 		assertEquals("Test null functionality", false, shortList.add(null));
 		assertEquals("Test successful functionality", true, shortList.add("C"));
 		assertEquals("Check end", "C", shortList.get(2));
+
 	}
 
 	
@@ -151,8 +160,27 @@ public class MyLinkedListTester {
 	@Test
 	public void testAddAtIndex()
 	{
-        // TODO: implement this test
-		
+		int sizeList2 = list2.size();
+		list2.add(0,null);
+		assertEquals("Test null functionality", sizeList2, list2.size());
+
+		try {
+			list2.add(5,77);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+
+		try {
+			list2.add(-1,77);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+
+		list2.add(1,73);
+		assertEquals("Test successful functionality by size", sizeList2, list2.size());
+		assertEquals("Test successful functionality", (Integer)73, list2.get(1));
 	}
 	
 	/** Test setting an element in the list */
