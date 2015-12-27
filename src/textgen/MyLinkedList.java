@@ -83,7 +83,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	public void add(int index, E element ) 
 	{
 		// TODO: Implement this method
-        //size = size +1;
+        //size++;
 	}
 
 
@@ -101,7 +101,14 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E remove(int index) 
 	{
+		if(size == 0){
+			return null;
+		}
+		if(index>size){
+
+		}
 		// TODO: Implement this method
+		size--;
 		return null;
 	}
 

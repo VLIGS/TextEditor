@@ -105,6 +105,13 @@ public class MyLinkedListTester {
 	@Test
 	public void testRemove()
 	{
+		assertEquals("Remove: empty list ", null, emptyList.remove(0));
+		try {
+			shortList.remove(3);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
 		int a = list1.remove(0);
 		assertEquals("Remove: check a is correct ", 65, a);
 		assertEquals("Remove: check element 0 is correct ", (Integer)21, list1.get(0));
