@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82c67727-f287-4b60-b46f-9c27b60a5cc0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textgen/MyLinkedList.java" afterPath="$PROJECT_DIR$/src/textgen/MyLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" afterPath="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" />
     </list>
     <ignored path="MOOCTextEditor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyLinkedListTester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyLinkedListTester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42741936">
+              <caret line="133" column="33" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78494626">
+            <state vertical-scroll-proportion="26.407408">
               <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding />
             </state>
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/document/Document.java" />
         <option value="$PROJECT_DIR$/src/document/EfficientDocument.java" />
         <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTesterTest.java" />
-        <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" />
         <option value="$PROJECT_DIR$/src/textgen/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" />
       </list>
     </option>
   </component>
@@ -139,20 +139,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MOOCTextEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MOOCTextEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MOOCTextEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_cases" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -844,14 +830,11 @@
       <workItem from="1448751676424" duration="27000" />
       <workItem from="1448751724144" duration="13944000" />
       <workItem from="1448831937754" duration="2252000" />
-      <workItem from="1449755769859" duration="4376000" />
+      <workItem from="1449755769859" duration="6025000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 01m 04s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 01m 12s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
@@ -879,9 +862,12 @@
     <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 45m 49s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 18h 21m 03s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45791000" />
+    <option name="totallyTimeSpent" value="47440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="0" />
@@ -934,14 +920,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
@@ -1296,21 +1274,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
+    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="26.407408">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78494626">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.42741936">
+          <caret line="133" column="33" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
