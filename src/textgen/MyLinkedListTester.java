@@ -126,8 +126,9 @@ public class MyLinkedListTester {
 	@Test
 	public void testAddEnd()
 	{
-        // TODO: implement this test
-		
+		assertEquals("Test null functionality", false, shortList.add(null));
+		assertEquals("Test successful functionality", true, shortList.add("C"));
+		assertEquals("Check end", "C", shortList.get(2));
 	}
 
 	

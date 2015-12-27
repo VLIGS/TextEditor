@@ -105,9 +105,9 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			return null;
 		}
 		if(index>size){
-
+			throw new IndexOutOfBoundsException("Index exceeds size of the list");
 		}
-		// TODO: Implement this method
+
 		size--;
 		return null;
 	}
