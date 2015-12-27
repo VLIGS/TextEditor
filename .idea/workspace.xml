@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c67727-f287-4b60-b46f-9c27b60a5cc0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/textgen/LLNode.class" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/textgen/LLNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MOOCTextEditor/textgen/MyLinkedList.class" afterPath="$PROJECT_DIR$/out/production/MOOCTextEditor/textgen/MyLinkedList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/textgen/MyLinkedList.java" afterPath="$PROJECT_DIR$/src/textgen/MyLinkedList.java" />
     </list>
@@ -32,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +41,8 @@
       <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6096998">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.78494626">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -93,7 +91,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -125,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +214,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +237,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cw4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -845,48 +843,49 @@
       <workItem from="1448751618091" duration="33000" />
       <workItem from="1448751676424" duration="27000" />
       <workItem from="1448751724144" duration="13944000" />
-      <workItem from="1448831937754" duration="1017000" />
+      <workItem from="1448831937754" duration="2252000" />
+      <workItem from="1449755769859" duration="4376000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 18h 47m 59s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 01m 04s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 18h 50m 08s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 01m 12s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 10m 49s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 03m 30s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 11m 51s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 07m 14s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 23m 55s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 11m 53s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 25m 09s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 16m 43s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 25m 55s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 17m 52s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 27m 19s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 18m 04s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 28m 44s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 44m 57s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.11.29 at 21h 35m 51s.xml">
+    <history-entry file="MyLinkedListTester - 2015.12.27 at 17h 45m 49s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40180000" />
+    <option name="totallyTimeSpent" value="45791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="722" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="714" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -895,7 +894,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33843797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3379845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -904,7 +903,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29402757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29302326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -938,12 +937,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java</url>
-          <line>62</line>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1300,7 +1299,7 @@
     <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1309,8 +1308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6096998">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.78494626">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding />
         </state>
       </provider>
