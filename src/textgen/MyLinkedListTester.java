@@ -21,7 +21,6 @@ public class MyLinkedListTester {
 	MyLinkedList<Integer> list2;
 	MyLinkedList<Integer> list3;
 
-	
 	/**
 	 * @throws java.lang.Exception
 	 */
@@ -110,8 +109,7 @@ public class MyLinkedListTester {
 		}
 		
 	}
-	
-	
+
 	/** Test removing an element from the list.
 	 * We've included the example from the concept challenge.
 	 * You will want to add more tests.  */
@@ -183,9 +181,14 @@ public class MyLinkedListTester {
 		catch (IndexOutOfBoundsException e) {
 		}
 
-		list2.add(1,73);
-		assertEquals("Test successful functionality by size", sizeList2, list2.size());
-		assertEquals("Test successful functionality", (Integer)73, list2.get(1));
+		list2.add(3,80);
+		assertEquals("Test successful functionality end of list", (Integer)80, list2.get(3));
+
+		list2.add(0,88);
+		assertEquals("Test successful functionality start of list", (Integer)88, list2.get(0));
+
+		//list2.add(1,73);
+		//assertEquals("Test successful functionality", (Integer)73, list2.get(1));
 	}
 	
 	/** Test setting an element in the list */

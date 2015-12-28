@@ -82,7 +82,23 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public void add(int index, E element ) 
 	{
-        //size++;
+		if(index>size || index<0){
+			throw new IndexOutOfBoundsException("Index exceeds size of the list");
+		}
+		if(element!=null){
+			   //case at the end
+			if(index==size){
+				add(element);
+			} //case at the start
+			else if(index==0){
+
+			} //case in the middle
+			else{
+
+			}
+			size++;
+		}
+
 	}
 
 
