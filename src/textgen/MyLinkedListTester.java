@@ -178,7 +178,7 @@ public class MyLinkedListTester {
 			list2.add(0,null);
 			fail("Check out of bounds");
 		}
-		catch (IllegalArgumentException e) {
+		catch (NullPointerException e) {
 		}
 		assertEquals("Test null functionality", sizeList2, list2.size());
 
