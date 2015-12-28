@@ -19,6 +19,7 @@ public class MyLinkedListTester {
 	MyLinkedList<Integer> longerList;
 	MyLinkedList<Integer> list1;
 	MyLinkedList<Integer> list2;
+	MyLinkedList<Integer> list3;
 
 	
 	/**
@@ -45,6 +46,11 @@ public class MyLinkedListTester {
 		list2.add(65);
 		list2.add(21);
 		list2.add(42);
+
+		list3 = new MyLinkedList<Integer>();
+		list3.add(66);
+		list3.add(22);
+		list3.add(43);
 		
 	}
 
@@ -123,8 +129,7 @@ public class MyLinkedListTester {
 		assertEquals("Remove: check a is correct ", 65, a);
 		assertEquals("Remove: check element 0 is correct ", (Integer)21, list1.get(0));
 		assertEquals("Remove: check size is correct ", 2, list1.size());
-		
-		// TODO: Add more tests here
+
 	}
 	
 	/** Test adding an element into the end of the list, specifically
@@ -187,11 +192,17 @@ public class MyLinkedListTester {
 	@Test
 	public void testSet()
 	{
-	    // TODO: implement this test
+		try {
+			list3.set(6,86);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+		int list3Size = list3.size();
+		assertEquals("Test successful Set functionality 1", (Integer)22, list3.set(1,44));
+		assertEquals("Test successful Set functionality 2", (Integer)44, list3.get(1));
+		assertEquals("Test successful Set functionality 3", list3Size, list3.size());
 	    
 	}
-	
-	
-	// TODO: Optionally add more test methods.
-	
+
 }

@@ -82,7 +82,6 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public void add(int index, E element ) 
 	{
-		// TODO: Implement this method
         //size++;
 	}
 
@@ -121,7 +120,6 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E set(int index, E element) 
 	{
-		// TODO: Implement this method
 		return null;
 	}   
 }
@@ -132,7 +130,6 @@ class LLNode<E>
 	LLNode<E> next;
 	E data;
 
-	// TODO: Add any other methods you think are useful here
 	// E.g. you might want to add another constructor
 
 	public LLNode(E e) 
