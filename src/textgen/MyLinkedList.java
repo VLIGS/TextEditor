@@ -148,11 +148,16 @@ public class MyLinkedList<E> extends AbstractList<E> {
 				head.next = head.next.next;
 				head.next.prev = head;
 			}
-			else{
-				myReturnItem = null;
-			}
-
 			//case at the middle of the list
+			else{
+				LLNode<E> myCurrentNode=head;
+				for (int i = 0; i<=index; i++){
+					myCurrentNode = myCurrentNode.next;
+				}
+				myReturnItem = myCurrentNode.data;
+				myCurrentNode.prev.next = myCurrentNode.next;
+				myCurrentNode.next.prev = myCurrentNode.prev;
+			}
 			size--;
 			return myReturnItem;
 		}

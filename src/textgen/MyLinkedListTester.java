@@ -134,7 +134,7 @@ public class MyLinkedListTester {
 
 		list1.add(61);
 		list1.add(41);
-		assertEquals("Remove: check1 at mid of list is correct ", (Integer)61, list1.get(1));
+		assertEquals("Remove: check1 at mid of list is correct ", (Integer)61, list1.remove(1));
 		assertEquals("Remove: check2 at mid of list, size is correct ", 2, list1.size());
 		assertEquals("Remove: check3 at mid of list, element 1 is correct ", (Integer)41, list1.get(1));
 
