@@ -142,10 +142,16 @@ public class MyLinkedList<E> extends AbstractList<E> {
 				tail.prev.prev.next = tail;
 				tail.prev = tail.prev.prev;
 			}
+			//case at the start of the list
+			else if(index==0){
+				myReturnItem = head.next.data;
+				head.next = head.next.next;
+				head.next.prev = head;
+			}
 			else{
 				myReturnItem = null;
 			}
-			//case at the start of the list
+
 			//case at the middle of the list
 			size--;
 			return myReturnItem;
