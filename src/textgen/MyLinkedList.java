@@ -85,16 +85,29 @@ public class MyLinkedList<E> extends AbstractList<E> {
 		if(index>size || index<0){
 			throw new IndexOutOfBoundsException("Index exceeds size of the list");
 		}
+		LLNode<E> myNode = new LLNode<E>(element);
 		if(element!=null){
 			   //case at the end
 			if(index==size){
 				add(element);
-			} //case at the start
-			else if(index==0){
-
+			} //case at the start of non empty list
+			else if(index==0 && size!=0){
+				myNode.next = head.next;
+				myNode.prev = myNode.next.prev;
+				myNode.next.prev = myNode;
+				head.next = myNode;
 			} //case in the middle
 			else{
-
+				LLNode<E> myCurrentNode;
+				myCurrentNode=head;
+				//iterate through list until
+				for (int i = 0; i<index; i++){
+					myCurrentNode = myCurrentNode.next;
+				}
+				myNode.next = myCurrentNode.next;
+				myNode.prev = myCurrentNode;
+				myCurrentNode.next.prev  = myNode;
+				myCurrentNode.next = myNode;
 			}
 			size++;
 		}
@@ -147,6 +160,8 @@ class LLNode<E>
 	E data;
 
 	// E.g. you might want to add another constructor
+	public LLNode(){
+	}
 
 	public LLNode(E e) 
 	{

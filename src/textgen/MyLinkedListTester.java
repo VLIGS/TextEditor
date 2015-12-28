@@ -187,8 +187,9 @@ public class MyLinkedListTester {
 		list2.add(0,88);
 		assertEquals("Test successful functionality start of list", (Integer)88, list2.get(0));
 
-		//list2.add(1,73);
-		//assertEquals("Test successful functionality", (Integer)73, list2.get(1));
+		list2.add(1,73);
+		assertEquals("Test successful functionality mid of list part1", (Integer)73, list2.get(1));
+		assertEquals("Test successful functionality mid of list part2", (Integer)65, list2.get(2));
 	}
 	
 	/** Test setting an element in the list */
