@@ -147,7 +147,7 @@ public class MyLinkedListTester {
 	public void testAddEnd()
 	{
 
-		assertEquals("Test null functionality", false, shortList.add(null));
+		//assertEquals("Test null functionality", false, shortList.add(null));
 		assertEquals("Test successful functionality", true, shortList.add("C"));
 		assertEquals("Check end", "C", shortList.get(2));
 
@@ -174,7 +174,12 @@ public class MyLinkedListTester {
 	public void testAddAtIndex()
 	{
 		int sizeList2 = list2.size();
-		list2.add(0,null);
+		try {
+			list2.add(0,null);
+			fail("Check out of bounds");
+		}
+		catch (IllegalArgumentException e) {
+		}
 		assertEquals("Test null functionality", sizeList2, list2.size());
 
 		try {

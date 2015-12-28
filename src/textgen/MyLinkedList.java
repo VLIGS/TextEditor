@@ -85,6 +85,9 @@ public class MyLinkedList<E> extends AbstractList<E> {
 		if(index>size || index<0){
 			throw new IndexOutOfBoundsException("Index exceeds size of the list");
 		}
+		if(element == null){
+			throw new IllegalArgumentException();
+		}
 		LLNode<E> myNode = new LLNode<E>(element);
 		if(element!=null){
 			   //case at the end
@@ -172,6 +175,9 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E set(int index, E element) 
 	{
+		if(element==null){
+			throw new IllegalArgumentException();
+		}
 		if(size == 0){
 			return null;
 		}
