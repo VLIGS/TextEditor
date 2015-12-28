@@ -26,14 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyLinkedListTester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyLinkedListTester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.66416043">
+              <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testRemove#0;class#MyLinkedListTester#0" expanded="false" />
                 <element signature="method#testAddEnd#0;class#MyLinkedListTester#0" expanded="false" />
                 <element signature="method#testSize#0;class#MyLinkedListTester#0" expanded="false" />
               </folding>
@@ -41,15 +40,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8446115">
-              <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
               <folding>
                 <element signature="method#emptyList#0;class#MyLinkedList#0" expanded="false" />
-                <element signature="e#3828#3829#0" expanded="true" />
-                <element signature="e#3846#3847#0" expanded="true" />
+                <element signature="e#4100#4101#0" expanded="true" />
+                <element signature="e#4118#4119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/document/Document.java" />
         <option value="$PROJECT_DIR$/src/document/EfficientDocument.java" />
         <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTesterTest.java" />
-        <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" />
         <option value="$PROJECT_DIR$/src/textgen/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" />
       </list>
     </option>
   </component>
@@ -837,44 +836,44 @@
       <workItem from="1448751676424" duration="27000" />
       <workItem from="1448751724144" duration="13944000" />
       <workItem from="1448831937754" duration="2252000" />
-      <workItem from="1449755769859" duration="17914000" />
+      <workItem from="1449755769859" duration="20602000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 10h 26m 22s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 10h 26m 32s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 10h 39m 16s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 28m 04s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 30m 33s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 34m 09s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 34m 19s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 35m 13s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 36m 28s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyLinkedListTester - 2015.12.28 at 14h 36m 42s.xml">
       <configuration name="MyLinkedListTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 26m 14s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 26m 32s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 26m 57s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 28m 28s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 28m 50s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 30m 03s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 31m 42s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyLinkedListTester - 2015.12.28 at 15h 32m 32s.xml">
+      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59329000" />
+    <option name="totallyTimeSpent" value="62017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="0" />
@@ -927,15 +926,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java</url>
-          <line>189</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -944,13 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/document/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="294" selection-start-line="64" selection-start-column="294" selection-end-line="64" selection-end-column="294" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/mod1TestCases.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1289,27 +1273,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testRemove#0;class#MyLinkedListTester#0" expanded="false" />
-            <element signature="method#testAddEnd#0;class#MyLinkedListTester#0" expanded="false" />
-            <element signature="method#testSize#0;class#MyLinkedListTester#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.29925188">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8446115">
-          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
           <folding>
             <element signature="method#emptyList#0;class#MyLinkedList#0" expanded="false" />
-            <element signature="e#3828#3829#0" expanded="true" />
-            <element signature="e#3846#3847#0" expanded="true" />
+            <element signature="e#4100#4101#0" expanded="true" />
+            <element signature="e#4118#4119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textgen/MyLinkedListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66416043">
+          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testAddEnd#0;class#MyLinkedListTester#0" expanded="false" />
+            <element signature="method#testSize#0;class#MyLinkedListTester#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -100,7 +100,6 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			else{
 				LLNode<E> myCurrentNode;
 				myCurrentNode=head;
-				//iterate through list until
 				for (int i = 0; i<index; i++){
 					myCurrentNode = myCurrentNode.next;
 				}
@@ -135,9 +134,22 @@ public class MyLinkedList<E> extends AbstractList<E> {
 		if(index>size){
 			throw new IndexOutOfBoundsException("Index exceeds size of the list");
 		}
-
-		size--;
-		return null;
+		else{
+			E myReturnItem;
+			//case at the end of list
+			if(index==size-1){
+				myReturnItem = tail.prev.data;
+				tail.prev.prev.next = tail;
+				tail.prev = tail.prev.prev;
+			}
+			else{
+				myReturnItem = null;
+			}
+			//case at the start of the list
+			//case at the middle of the list
+			size--;
+			return myReturnItem;
+		}
 	}
 
 	/**
