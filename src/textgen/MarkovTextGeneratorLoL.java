@@ -1,8 +1,8 @@
 package textgen;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.ListIterator;
 import java.util.Random;
 
 /** 
@@ -32,7 +32,22 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	@Override
 	public void train(String sourceText)
 	{
-		// TODO: Implement this method
+		String [] myStringArray = sourceText.split("[\\s]+");
+		for (int i = 1; i<myStringArray.length; i++){
+
+		}
+	}
+	private List<String> cleanStrings(String [] myStringArray){
+		List <String> myList = new ArrayList<>();
+		for (int i = 0; i<myStringArray.length; i++){
+			if(myStringArray[i].length()!=0){
+				if(!Character.isAlphabetic(myStringArray[i].charAt(myStringArray[i].length()-1))){
+					myStringArray[i] = myStringArray[i].substring(0,myStringArray[i].length()-1);
+				}
+				myList.add(myStringArray[i]);
+			}
+		}
+		return myList;
 	}
 	
 	/** 
