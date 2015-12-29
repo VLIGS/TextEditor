@@ -1,6 +1,5 @@
 package textgen;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -33,21 +32,43 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	public void train(String sourceText)
 	{
 		String [] myStringArray = sourceText.split("[\\s]+");
+		starter = myStringArray[0];
+		String prevWord = starter;
 		for (int i = 1; i<myStringArray.length; i++){
-
-		}
-	}
-	private List<String> cleanStrings(String [] myStringArray){
-		List <String> myList = new ArrayList<>();
-		for (int i = 0; i<myStringArray.length; i++){
-			if(myStringArray[i].length()!=0){
-				if(!Character.isAlphabetic(myStringArray[i].charAt(myStringArray[i].length()-1))){
-					myStringArray[i] = myStringArray[i].substring(0,myStringArray[i].length()-1);
-				}
-				myList.add(myStringArray[i]);
+			if(checkIfWordinList(prevWord)){
+				addToNodeList(prevWord, myStringArray[i]);
+			}
+			else{
+				ListNode myListNode = new ListNode(prevWord);
+				myListNode.addNextWord(myStringArray[i]);
+				wordList.add(myListNode);
+				prevWord = myStringArray[i];
 			}
 		}
-		return myList;
+		if(checkIfWordinList(myStringArray[myStringArray.length-1])){
+			addToNodeList(prevWord, starter);
+		}
+		else {
+			ListNode myListNode = new ListNode(myStringArray[myStringArray.length-1]);
+			myListNode.addNextWord(starter);
+			wordList.add(myListNode);
+		}
+	}
+	private boolean checkIfWordinList(String myWord){
+		for(ListNode myNode: wordList){
+			if(myWord.equals(myNode.getWord())){
+				return true;
+			}
+		}
+		return false;
+	}
+	private void addToNodeList(String myNodeWord, String wordtoAdd){
+		for(ListNode myNode: wordList){
+			if(myNodeWord.equals(myNode.getWord())){
+				myNode.addNextWord(wordtoAdd);
+				return;
+			}
+		}
 	}
 	
 	/** 
@@ -89,6 +110,11 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	 */
 	public static void main(String[] args)
 	{
+		//some testing
+		String myTextString = "hi there hi Leo";
+		MarkovTextGeneratorLoL myGen = new MarkovTextGeneratorLoL(new Random(42));
+		myGen.train(myTextString);
+
 		// feed the generator a fixed random value for repeatable behavior
 		MarkovTextGeneratorLoL gen = new MarkovTextGeneratorLoL(new Random(42));
 		String textString = "Hello.  Hello there.  This is a test.  Hello there.  Hello Bob.  Test again.";

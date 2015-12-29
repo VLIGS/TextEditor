@@ -28,9 +28,14 @@
       <file leaf-file-name="MarkovTextGeneratorLoL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48129675">
-              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-              <folding />
+            <state vertical-scroll-proportion="0.5511222">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding>
+                <element signature="e#4815#4816#0" expanded="true" />
+                <element signature="e#4833#4834#0" expanded="true" />
+                <element signature="e#4879#4880#0" expanded="true" />
+                <element signature="e#4909#4910#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -820,7 +825,7 @@
       <workItem from="1448751676424" duration="27000" />
       <workItem from="1448751724144" duration="13944000" />
       <workItem from="1448831937754" duration="2252000" />
-      <workItem from="1449755769859" duration="31348000" />
+      <workItem from="1449755769859" duration="34324000" />
     </task>
     <servers />
   </component>
@@ -857,7 +862,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72763000" />
+    <option name="totallyTimeSpent" value="75739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="0" />
@@ -910,15 +915,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1293,9 +1290,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48129675">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
+        <state vertical-scroll-proportion="0.5511222">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding>
+            <element signature="e#4815#4816#0" expanded="true" />
+            <element signature="e#4833#4834#0" expanded="true" />
+            <element signature="e#4879#4880#0" expanded="true" />
+            <element signature="e#4909#4910#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
