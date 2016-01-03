@@ -83,9 +83,11 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 		String currWord = starter;
 		String output = "";
 		output+=currWord;
+		output+=" ";
 		while(numWords!=0){
 			String myRandomWord = getNextWord(currWord);
 			output+=myRandomWord;
+			output+=" ";
 			currWord = myRandomWord;
 			numWords--;
 		}
