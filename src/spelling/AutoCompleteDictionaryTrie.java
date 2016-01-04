@@ -28,7 +28,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 		TrieNode myCurrentNode = root;
 		return addSubWord(word, myCurrentNode);
 	}
-	
+
 	private boolean addSubWord(String word, TrieNode myCurrentNode){
 		if(word.length()==0){
 			return false;
@@ -36,14 +36,14 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 		if(myCurrentNode.getChild(word.charAt(0))==null) {
 			myCurrentNode = myCurrentNode.insert(word.charAt(0));
 			if (word.length() == 1) {
-				myCurrentNode.endsWord();
+				myCurrentNode.setEndsWord(true);
 				size++;
 				return true;
 			} else {
 				for (int i = 1; i < word.length(); i++) {
 					myCurrentNode = myCurrentNode.insert(word.charAt(i));
 				}
-				myCurrentNode.endsWord();
+				myCurrentNode.setEndsWord(true);
 				size++;
 				return true;
 			}
