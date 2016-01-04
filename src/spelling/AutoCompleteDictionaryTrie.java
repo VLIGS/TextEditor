@@ -31,6 +31,10 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 
 	private boolean addSubWord(String word, TrieNode myCurrentNode){
 		if(word.length()==0){
+			if(!myCurrentNode.endsWord()){
+				myCurrentNode.setEndsWord(true);
+				size++;
+			}
 			return false;
 		}
 		if(myCurrentNode.getChild(word.charAt(0))==null) {
