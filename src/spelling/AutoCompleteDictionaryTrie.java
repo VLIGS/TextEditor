@@ -1,10 +1,6 @@
 package spelling;
 
 import java.util.List;
-import java.util.Set;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
 
 /** 
  * An trie data structure that implements the Dictionary and the AutoComplete ADT
@@ -14,7 +10,7 @@ import java.util.LinkedList;
 public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 
     private TrieNode root;
-    private int size;
+    private int size; //number of words in dictionary?
     
 
     public AutoCompleteDictionaryTrie()
@@ -28,7 +24,37 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 * That is, you should convert the string to all lower case as you insert it. */
 	public boolean addWord(String word)
 	{
-	    //TODO: Implement this method.
+		word = word.toLowerCase();
+		TrieNode myCurrentNode;
+
+		if(root.getChild(word.charAt(0))==null){
+			myCurrentNode = root.insert(word.charAt(0));
+			if (word.length()==1){
+				myCurrentNode.endsWord();
+				size++;
+				return true;
+			}
+			else {
+				for(int i =1;i<word.length(); i++ ){
+					myCurrentNode = myCurrentNode.insert(word.charAt(i));
+				}
+				myCurrentNode.endsWord();
+				size++;
+				return true;
+			}
+		}
+		else{
+			myCurrentNode= root.getChild(word.charAt(0));
+			/**
+			 * for(int i = 0; i<word.length(); i++ ){
+			 if(myCurrentNode.getChild(word.charAt(i))==null){
+			 //myCurrentNode.
+			 myCurrentNode = myCurrentNode.insert(word.charAt(i));
+
+			 }
+			 }
+			 */
+		}
 	    return false;
 	}
 	
@@ -38,8 +64,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 */
 	public int size()
 	{
-	    //TODO: Implement this method
-	    return 0;
+	    return size;
 	}
 	
 	
@@ -55,8 +80,8 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 *  * Returns up to the n "best" predictions, including the word itself,
      * in terms of length
      * If this string is not in the trie, it returns null.
-     * @param text The text to use at the word stem
-     * @param n The maximum number of predictions desired.
+     * @param //text The text to use at the word stem
+     * @param //n The maximum number of predictions desired.
      * @return A list containing the up to n best predictions
      */@Override
      public List<String> predictCompletions(String prefix, int numCompletions) 
