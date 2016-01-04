@@ -24,6 +24,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 * That is, you should convert the string to all lower case as you insert it. */
 	public boolean addWord(String word)
 	{
+		if(word.length()==0){return false;}
 		word = word.toLowerCase();
 		TrieNode myCurrentNode = root;
 		return addSubWord(word, myCurrentNode);
@@ -71,8 +72,20 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	@Override
 	public boolean isWord(String s) 
 	{
-	    // TODO: Implement this method
-		return false;
+		if(s.length()==0 || this.size == 0){return false;}
+		s = s.toLowerCase();
+		TrieNode myCurrentNode = root;
+		return isWordLong(s,myCurrentNode);
+	}
+	public boolean isWordLong(String s, TrieNode myCurrentNode){
+		if(s.length()==0 && myCurrentNode.endsWord()){return true;}
+		else if(myCurrentNode.getChild(s.charAt(0))!=null) {
+			myCurrentNode = myCurrentNode.getChild(s.charAt(0));
+			return isWordLong(s.substring(1),myCurrentNode);
+		}
+		else {
+			return false;
+		}
 	}
 
 	/** 
