@@ -9,6 +9,7 @@ import org.junit.Test;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * @author UC San Diego MOOC team
@@ -131,7 +132,7 @@ public class AutoCompleteDictionaryTrieTester {
 		completions = smallDict.predictCompletions("", 0);
 		assertEquals(0, completions.size());
 
-		/**
+
 		completions = smallDict.predictCompletions("",  4);
 		assertEquals(4, completions.size());
 		assertTrue(completions.contains("a"));
@@ -146,16 +147,14 @@ public class AutoCompleteDictionaryTrieTester {
 				(completions.contains("hem") || completions.contains("hey"));
 		assertEquals(2, completions.size());
 		assertTrue(allIn);
-		
+
 		completions = smallDict.predictCompletions("hel", 10);
 		assertEquals(2, completions.size());
 
 		allIn = completions.contains("hello") && completions.contains("help");
 		assertTrue(allIn);
-		**/
 
 		completions = smallDict.predictCompletions("x", 5);
 		assertEquals(0, completions.size());
-
 	}
 }
