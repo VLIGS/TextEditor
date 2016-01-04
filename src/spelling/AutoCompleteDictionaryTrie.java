@@ -25,17 +25,22 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	public boolean addWord(String word)
 	{
 		word = word.toLowerCase();
-		TrieNode myCurrentNode;
-
-		if(root.getChild(word.charAt(0))==null){
-			myCurrentNode = root.insert(word.charAt(0));
-			if (word.length()==1){
+		TrieNode myCurrentNode = root;
+		return addSubWord(word, myCurrentNode);
+	}
+	
+	private boolean addSubWord(String word, TrieNode myCurrentNode){
+		if(word.length()==0){
+			return false;
+		}
+		if(myCurrentNode.getChild(word.charAt(0))==null) {
+			myCurrentNode = myCurrentNode.insert(word.charAt(0));
+			if (word.length() == 1) {
 				myCurrentNode.endsWord();
 				size++;
 				return true;
-			}
-			else {
-				for(int i =1;i<word.length(); i++ ){
+			} else {
+				for (int i = 1; i < word.length(); i++) {
 					myCurrentNode = myCurrentNode.insert(word.charAt(i));
 				}
 				myCurrentNode.endsWord();
@@ -43,21 +48,11 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 				return true;
 			}
 		}
-		else{
-			myCurrentNode= root.getChild(word.charAt(0));
-			/**
-			 * for(int i = 0; i<word.length(); i++ ){
-			 if(myCurrentNode.getChild(word.charAt(i))==null){
-			 //myCurrentNode.
-			 myCurrentNode = myCurrentNode.insert(word.charAt(i));
-
-			 }
-			 }
-			 */
+		else {
+			myCurrentNode = myCurrentNode.getChild(word.charAt(0));
+			return addSubWord(word.substring(1),myCurrentNode);
 		}
-	    return false;
 	}
-	
 	/** 
 	 * Return the number of words in the dictionary.  This is NOT necessarily the same
 	 * as the number of TrieNodes in the trie.
