@@ -105,10 +105,16 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 		 else if(prefix.equals("")){
 			 //fill list with first numCompletions suggestions
 		 }
-    	 // This method should implement the following algorithm:
-    	 // 1. Find the stem in the trie.  If the stem does not appear in the trie, return an
-    	 //    empty list
+		 LinkedList<String> myReturnList = new LinkedList<String>();
 
+		 // This method should implement the following algorithm:
+		 // 1. Find the stem in the trie.  If the stem does not appear in the trie, return an empty list
+		 prefix = prefix.toLowerCase();
+		 TrieNode myCurrentNode = root;
+		 TrieNode myStemNode = findStem(prefix,myCurrentNode);
+		 if(myStemNode.getText().length()==0 && !myStemNode.endsWord()){
+			 return myReturnList; //return empty list;
+		 }
     	 // 2. Once the stem is found, perform a breadth first search to generate completions
     	 //    using the following algorithm:
     	 //    Create a queue (LinkedList) and add the node that completes the stem to the back
@@ -122,6 +128,14 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
     	 
          return null;
      }
+	private TrieNode findStem (String stem, TrieNode currentNode){
+		if(stem.length()==0){return currentNode;}
+		else if(currentNode.getChild(stem.charAt(0))!=null) {
+			currentNode = currentNode.getChild(stem.charAt(0));
+			return findStem(stem.substring(1), currentNode);
+		}
+		return new TrieNode();
+	}
 
  	// For debugging
  	public void printTree()

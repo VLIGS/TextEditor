@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c67727-f287-4b60-b46f-9c27b60a5cc0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" afterPath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java" afterPath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java" />
     </list>
@@ -26,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AutoCompleteDictionaryTrieTester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AutoCompleteDictionaryTrieTester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6854838">
-              <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+            <state vertical-scroll-proportion="-10.740741">
+              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,28 +43,28 @@
         <entry file="file://$PROJECT_DIR$/src/spelling/TrieNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#864#865#0" expanded="true" />
                 <element signature="e#893#894#0" expanded="true" />
                 <element signature="e#1621#1622#0" expanded="true" />
                 <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
                 <element signature="e#1755#1756#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoCompleteDictionaryTrie.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AutoCompleteDictionaryTrie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.41353384">
+              <caret line="110" column="94" selection-start-line="110" selection-start-column="94" selection-end-line="110" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
-                <element signature="method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
-                <element signature="method#isWordLong#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="e#2959#2967#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/spelling/DictionaryLL.java" />
         <option value="$PROJECT_DIR$/src/spelling/DictionaryBST.java" />
         <option value="$PROJECT_DIR$/src/spelling/DictionaryBenchmarking.java" />
-        <option value="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" />
         <option value="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java" />
+        <option value="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" />
       </list>
     </option>
   </component>
@@ -114,6 +115,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
@@ -821,32 +829,11 @@
       <workItem from="1448751676424" duration="27000" />
       <workItem from="1448751724144" duration="13944000" />
       <workItem from="1448831937754" duration="2252000" />
-      <workItem from="1449755769859" duration="67739000" />
+      <workItem from="1449755769859" duration="72935000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 17h 59m 49s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 00m 36s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 43m 07s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 46m 30s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 49m 34s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 51m 53s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 52m 06s.xml">
-      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 18h 53m 08s.xml">
       <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
     </history-entry>
@@ -856,9 +843,30 @@
     <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 19h 32m 38s.xml">
       <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 29m 31s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 34m 43s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 37m 15s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 39m 19s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 44m 57s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 20h 51m 44s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2016.01.04 at 21h 09m 25s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109154000" />
+    <option name="totallyTimeSpent" value="114350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="0" />
@@ -911,7 +919,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="81" />
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1290,20 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/TrieNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spelling/DictionaryBSTTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1314,25 +1308,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
+    <entry file="file://$PROJECT_DIR$/src/spelling/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
-            <element signature="method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
-            <element signature="method#isWordLong#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6854838">
-          <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+        <state vertical-scroll-proportion="-10.740741">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41353384">
+          <caret line="110" column="94" selection-start-line="110" selection-start-column="94" selection-end-line="110" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="e#2959#2967#0" expanded="true" />
           </folding>
         </state>
       </provider>

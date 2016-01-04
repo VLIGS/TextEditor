@@ -149,11 +149,13 @@ public class AutoCompleteDictionaryTrieTester {
 		
 		completions = smallDict.predictCompletions("hel", 10);
 		assertEquals(2, completions.size());
+
 		allIn = completions.contains("hello") && completions.contains("help");
 		assertTrue(allIn);
-	
+		**/
+
 		completions = smallDict.predictCompletions("x", 5);
 		assertEquals(0, completions.size());
-		 **/
+
 	}
 }
