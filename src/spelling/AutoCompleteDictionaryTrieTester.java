@@ -6,6 +6,8 @@ package spelling;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -121,14 +123,15 @@ public class AutoCompleteDictionaryTrieTester {
 		assertEquals("Testing isWord on large: subsequent", true, largeDict.isWord("subsequent"));
 	}
 
-	/**
+
 	@Test
 	public void testPredictCompletions()
 	{
 		List<String> completions;
 		completions = smallDict.predictCompletions("", 0);
 		assertEquals(0, completions.size());
-		
+
+		/**
 		completions = smallDict.predictCompletions("",  4);
 		assertEquals(4, completions.size());
 		assertTrue(completions.contains("a"));
@@ -151,6 +154,6 @@ public class AutoCompleteDictionaryTrieTester {
 	
 		completions = smallDict.predictCompletions("x", 5);
 		assertEquals(0, completions.size());
+		 **/
 	}
-	**/
 }

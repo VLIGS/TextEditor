@@ -1,5 +1,6 @@
 package spelling;
 
+import java.util.LinkedList;
 import java.util.List;
 
 /** 
@@ -98,10 +99,16 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
      */@Override
      public List<String> predictCompletions(String prefix, int numCompletions) 
      {
-    	 // TODO: Implement this method
+		 if(numCompletions==0){
+			 return new LinkedList<>();
+		 }
+		 else if(prefix.equals("")){
+			 //fill list with first numCompletions suggestions
+		 }
     	 // This method should implement the following algorithm:
     	 // 1. Find the stem in the trie.  If the stem does not appear in the trie, return an
     	 //    empty list
+
     	 // 2. Once the stem is found, perform a breadth first search to generate completions
     	 //    using the following algorithm:
     	 //    Create a queue (LinkedList) and add the node that completes the stem to the back
