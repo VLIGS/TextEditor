@@ -80,7 +80,13 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 		return isWordLong(s,myCurrentNode);
 	}
 	public boolean isWordLong(String s, TrieNode myCurrentNode){
-		if(s.length()==0 && myCurrentNode.endsWord()){return true;}
+		if(s.length()==0) {
+			if (myCurrentNode.endsWord()) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 		else if(myCurrentNode.getChild(s.charAt(0))!=null) {
 			myCurrentNode = myCurrentNode.getChild(s.charAt(0));
 			return isWordLong(s.substring(1),myCurrentNode);

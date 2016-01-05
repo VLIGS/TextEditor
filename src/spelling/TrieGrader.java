@@ -43,6 +43,7 @@ public class TrieGrader {
 
 
         out.println(feedback.toString());
+        //System.out.println(feedback.toString());
         out.close();
     }
 
