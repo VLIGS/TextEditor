@@ -133,8 +133,8 @@ public class NearbyWords implements SpellingSuggest {
 		//Create list of real words to return when finished
 		List<String> retList = new LinkedList<String>();
 
-		Dictionary d = new DictionaryHashSet();
-		DictionaryLoader.loadDictionary(d, "data/dict.txt");
+		//Dictionary d = new DictionaryHashSet();
+		//DictionaryLoader.loadDictionary(d, "data/dict.txt");
 
 		//Add the initial word to the queue and visited
 		queue.add(word);
@@ -142,7 +142,7 @@ public class NearbyWords implements SpellingSuggest {
 
 		while(!queue.isEmpty() && retList.size() < numSuggestions){
 			String current = queue.remove(0);
-			NearbyWords w = new NearbyWords(d);
+			NearbyWords w = new NearbyWords(dict);
 			List<String> oneMutation = w.distanceOne(current, true);
 			for( String myMutation : oneMutation){
 				if(!visited.contains(myMutation)){
