@@ -124,21 +124,38 @@ public class NearbyWords implements SpellingSuggest {
 	@Override
 	public List<String> suggestions(String word, int numSuggestions) {
 
-		// initial variables
+		//Create a queue to hold words to explore
 		List<String> queue = new LinkedList<String>();     // String to explore
-		HashSet<String> visited = new HashSet<String>();   // to avoid exploring the same  
-														   // string multiple times
-		List<String> retList = new LinkedList<String>();   // words to return
-		 
-		
-		// insert first node
+
+		//Create a visited set to avoid looking at the same String repeatedly
+		HashSet<String> visited = new HashSet<String>();
+
+		//Create list of real words to return when finished
+		List<String> retList = new LinkedList<String>();
+
+		Dictionary d = new DictionaryHashSet();
+		DictionaryLoader.loadDictionary(d, "data/dict.txt");
+
+		//Add the initial word to the queue and visited
 		queue.add(word);
 		visited.add(word);
-					
-		// TODO: Implement the remainder of this method, see assignment for algorithm
-		
-		return retList;
 
+		while(!queue.isEmpty() && retList.size() < numSuggestions){
+			String current = queue.remove(0);
+			NearbyWords w = new NearbyWords(d);
+			List<String> oneMutation = w.distanceOne(current, true);
+			for( String myMutation : oneMutation){
+				if(!visited.contains(myMutation)){
+					visited.add(myMutation);
+					queue.add(myMutation);
+					if(dict.isWord(myMutation)){
+						retList.add(myMutation);
+					}
+				}
+			}
+		}
+		//return the list of real words
+		return retList;
 	}	
 
    public static void main(String[] args) {
@@ -153,12 +170,11 @@ public class NearbyWords implements SpellingSuggest {
 	   System.out.println("One away word Strings for for \""+word+"\" are:");
 	   System.out.println(l+"\n");
 
-/*
 	   word = "tailo";
 	   List<String> suggest = w.suggestions(word, 10);
 	   System.out.println("Spelling Suggestions for \""+word+"\" are:");
 	   System.out.println(suggest);
-	   */
+
    }
 
 }
