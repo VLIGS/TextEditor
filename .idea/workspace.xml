@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c67727-f287-4b60-b46f-9c27b60a5cc0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spelling/NearbyWords.java" afterPath="$PROJECT_DIR$/src/spelling/NearbyWords.java" />
     </list>
     <ignored path="MOOCTextEditor.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="NearbyWords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spelling/NearbyWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.075188">
-              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+            <state vertical-scroll-proportion="-0.7518797">
+              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
               <folding>
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -866,7 +865,7 @@
       <workItem from="1452271298156" duration="19000" />
       <workItem from="1452277238504" duration="28000" />
       <workItem from="1452277295390" duration="490000" />
-      <workItem from="1452349842289" duration="8314000" />
+      <workItem from="1452349842289" duration="8784000" />
     </task>
     <servers />
   </component>
@@ -903,7 +902,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133858000" />
+    <option name="totallyTimeSpent" value="134328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="713" extended-state="6" />
@@ -1351,8 +1350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spelling/NearbyWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.075188">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+        <state vertical-scroll-proportion="-0.7518797">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
           <folding>
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />

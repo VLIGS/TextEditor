@@ -132,10 +132,7 @@ public class NearbyWords implements SpellingSuggest {
 
 		//Create list of real words to return when finished
 		List<String> retList = new LinkedList<String>();
-
-		//Dictionary d = new DictionaryHashSet();
-		//DictionaryLoader.loadDictionary(d, "data/dict.txt");
-
+		
 		//Add the initial word to the queue and visited
 		queue.add(word);
 		visited.add(word);
